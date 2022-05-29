@@ -1,11 +1,10 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-var bodyParser = require("body-parser");
-var validator = require('validator');
+const bodyParser = require("body-parser");
+const validator = require('validator');
 const app = express();
 
-// Basic Configuration
 const port = process.env.PORT || 3000;
 
 const urls = [];
